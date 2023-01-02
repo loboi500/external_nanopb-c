@@ -1,12 +1,3 @@
-URL: https://jpa.kapsi.fi/nanopb/
-Version: 0.3.9.1
-License: zlib
-Description: "nanopb-c: A plugin for Google Protobuf compiler that generates C code"
-
-To use with Android modify Android.mk adding .proto files to
-LOCAL_SRC_FILES and set LOCAL_PROTOC_OPTIMIZE_TYPE:
-
-  LOCAL_SRC_FILES += simple.proto
-  LOCAL_PROTOC_OPTIMIZE_TYPE := nanopb-c
-
-Then look at https://jpa.kapsi.fi/nanopb/ Documentation for how to use nanopb-c.
+version https://git-lfs.github.com/spec/v1
+oid sha256:979beb53f5785cf8158f3471a2553133cf58a252eecda27e79aafba7d8cd6c15
+size 422

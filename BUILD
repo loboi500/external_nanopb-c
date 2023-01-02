@@ -1,21 +1,3 @@
-licenses(["notice"])
-
-exports_files(["LICENSE.txt"])
-
-package(default_visibility = ["//visibility:public"])
-
-cc_library(
-  name = "nanopb",
-  visibility = ["//visibility:public"],
-  hdrs = [
-    "pb.h",
-    "pb_common.h",
-    "pb_decode.h",
-    "pb_encode.h",
-  ],
-  srcs = [
-    "pb_common.c",
-    "pb_decode.c",
-    "pb_encode.c",
-  ],
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:6543314ae19a3df261c3f6ce5269b199404922e6f80f207f89d880ee159534dc
+size 340
